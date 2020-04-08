@@ -15,6 +15,17 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link>
+    <button
+      className="snipcart-add-item"
+      data-item-id="capsuni"
+      data-item-price="79.99"
+      data-item-url="/paintings/starry-night"
+      data-item-description="Capsuni Bio cultivati in natura afara fara conservanti sau coloranti"
+      data-item-image="../images/strawberry-2960533_640.jpg"
+      data-item-name="Capsuni!!!"
+    >
+      Add to cart
+    </button>
   </Layout>
 )
 

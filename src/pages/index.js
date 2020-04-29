@@ -17,6 +17,7 @@ const IndexPage = () => (
     <Link to="/page-2/">Go to page 2</Link>
     <button
       className="snipcart-add-item"
+      data-item-id="ebook"
       data-item-file-guid="7483a3ac-bee3-45d0-879d-ae5d12d5e4aa"
       data-item-price="1.99"
       data-item-url="https://laughing-euclid-20b960.netlify.com/#/"
